@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+.mission h2{
+  margin: 0;
+  padding: 10px;
+}
+
+.mission h4{
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  height:69px;
+  width:100%;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin-top: -8px;
+  display: flex;
+}
+
+.logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 15;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav {
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+nav span {
+ display: inline;
+ padding: 20px 10px;
+ list-style: none;
+ text-decoration: underline;
+}
+
+.content {
+  padding-top: 60px;
+  opacity: 0.9;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission {
+  height: 700px;
+  background-image: url('../img/mission.jpg');
+  width: 1200px;
+  text-align: center;
+  display: flex;
+}
+
+.missionDesc {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+.main-content {
+  width: 1000px;
+  margin: 40px auto 0;
+}
+
+.gallery div img{
+  width:300px;
+  height: 200px;
+}
+
+.tea {
+  text-align: center;
+}
+
+.gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery-item {
+  padding: 0 15px;
+}
+
+.gallery-item h4 {
+  margin-top: 10px;
+}
+
+.locations {
+  background-image: url("../img/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 40px auto 0;
+}
+
+.locations-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 15px 0
+}
+
+footer .container {
+  text-align: center;
+}
+
+.copyright {
+  margin-left:20px;
+}
